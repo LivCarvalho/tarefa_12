@@ -25,6 +25,16 @@ label,button{
     margin-top: 20px;
 }
 
+.btn{
+    background-color:hsla(220, 78%, 29%, 1);
+    color: aliceblue;
+}
+
+.btn:hover{
+    background-color: hsla(221, 45%, 73%, 1);
+    color: black;
+}
+
 label.error{
     margin-top: 0;
     font-size: 20px;
