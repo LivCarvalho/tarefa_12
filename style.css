@@ -1,0 +1,32 @@
+*{
+    font-size: 25px;
+}
+
+.form-style{
+    background-color: aliceblue;
+    border-radius: 10%;
+    color: darkred;
+}
+
+body{
+
+    background: hsla(221, 45%, 73%, 1);
+
+    background: linear-gradient(360deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    
+    background: -moz-linear-gradient(360deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    
+    background: -webkit-linear-gradient(360deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9bafd9", endColorstr="#103783", GradientType=1 );
+}
+
+label,button{
+    margin-top: 20px;
+}
+
+label.error{
+    margin-top: 0;
+    font-size: 20px;
+    color: rgb(248, 78, 78);
+}
